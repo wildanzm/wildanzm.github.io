@@ -37,34 +37,17 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px"
     data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="dump center">
-            <div class="rope center">
-                <div class="legs center">
-                    <div class="boot-l"></div>
-                    <div class="boot-r"></div>
-                </div>
-                <div class="costume center">
-                    <div class="spider">
-                        <div class="s1 center"></div>
-                        <div class="s2 center"></div>
-                        <div class="s3"></div>
-                        <div class="s4"></div>
-                    </div>
-                    <div class="belt center"></div>
-                    <div class="hand-r"></div>
-                    <div class="hand-l"></div>
-                    <div class="neck center"></div>
-                    <div class="mask center">
-                        <div class="eye-l"></div>
-                        <div class="eye-r"></div>
-                    </div>
-                    <div class="cover center"></div>
-                </div>
+        <div class="loader">
+            <div class="square">
+                <div class="mini_square sq-1"></div>
+                <div class="mini_square sq-2"></div>
+                <div class="mini_square"></div>
+                <div class="mini_square sq-4"></div>
             </div>
         </div>
     </div>
@@ -106,8 +89,8 @@
                     <h3 class="text-primary mb-3">I'm</h3>
                     <h1 class="display-5 mb-3">Wildan Zhilal Manafi</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Web Developer, Front End Developer , Mobile Developer , AI Enthusiast
-                        , Robotic Enthusiast , UI/UX Designer , Graphic Designer</div>
+                    <div class="typed-text d-none">Software Engineer , Web Developer , Mobile Developer , AI Enthusiast
+                        , Robotic Enthusiast , UI/UX Designer</div>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid" src="img/profile.png" alt="">
@@ -125,7 +108,7 @@
                     <h1 class="display-5 mb-2 text-center">About Me</h1>
                 </div>
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="fs-4" align="justify">Hello, my name is Wildan Zhilal Manafi, I am a student from
+                    <p class="fs-4">Hello, my name is Wildan Zhilal Manafi, I am a student from
                         University of Majalengka, Informatics Engineering study program. I am passionate about
                         technology, especially the web, robotics and artificial intelligence. I am always enthusiastic
                         about learning new things and exploring new possibilities in the world of technology. With my
@@ -160,27 +143,21 @@
             <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row gy-5 gx-4">
                     <div class="col-sm-12">
-                        <h4>SMAN 2 Majalengka</h4>
-                        <hr class="text-primary my-2">
-                        <p class="text-primary mb-1">2020 - 2023</p>
-                        <h5 class="mb-0">Science</h5>
-                    </div>
-                    <div class="col-sm-12">
                         <h4>University of Majalengka</h4>
                         <hr class="text-primary my-2">
                         <p class="text-primary mb-1">2023 - Now</p>
                         <h5 class="mb-0">Informatics Engineering</h5>
                     </div>
+                    <div class="col-sm-12">
+                        <h4>SMAN 2 Majalengka</h4>
+                        <hr class="text-primary my-2">
+                        <p class="text-primary mb-1">2020 - 2023</p>
+                        <h5 class="mb-0">Science</h5>
+                    </div>
                 </div>
             </div>
             <div id="tab-2" class="tab-pane fade show p-0">
                 <div class="row gy-5 gx-4">
-                    <div class="col-sm-12">
-                        <h4>Freelance UI/UX Designer</h4>
-                        <hr class="text-primary my-2">
-                        <p class="text-primary mb-1">2021 - Now</p>
-                        <h5 class="mb-0"></h5>
-                    </div>
                     <div class="col-sm-12">
                         <h4>Freelance Web Developer</h4>
                         <hr class="text-primary my-2">
@@ -188,7 +165,13 @@
                         <h5 class="mb-0"></h5>
                     </div>
                     <div class="col-sm-12">
-                        <h4>CV. AFC Jaya Perkasa</h4>
+                        <h4>Freelance UI/UX Designer</h4>
+                        <hr class="text-primary my-2">
+                        <p class="text-primary mb-1">2023 - Now</p>
+                        <h5 class="mb-0"></h5>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>PT. Radja Digital Indonesia</h4>
                         <hr class="text-primary my-2">
                         <p class="text-primary mb-1">2023</p>
                         <h5 class="mb-0">Front End Developer</h5>
@@ -216,6 +199,9 @@
                         <img src="img/Skill-8.png" alt="">
                         <img src="img/Skill-5.png" alt="">
                         <img src="img/Skill-6.png" alt="">
+                        <img src="img/Skill-9.png" alt="">
+                        <img src="img/Skill-10.png" alt="">
+                        <img src="img/Skill-11.png" alt="">
                         <img src="img/Skill-7.png" alt="">
                     </div>
                 </div>
@@ -358,7 +344,7 @@
                                 Discover an array of meticulously handcrafted pieces that seamlessly blend timeless
                                 aesthetics with eco-conscious practices. Experience elegance, sustainability, and
                                 innovation</p>
-                             <p><b>Tech Stack :</b> HTML, CSS, Javascript, Bootstrap, SCSS
+                            <p><b>Tech Stack :</b> HTML, CSS, Javascript, Bootstrap, SCSS
                             </p>
                         </div>
                     </div>
@@ -453,7 +439,8 @@
                             <p class="mt-3">Desainkaoz is ultimate print-on-demand marketplace. We can unleash
                                 creativity and bring designs to life on a range of products. From apparel to
                                 accessories, create unique items that showcase our style.</p>
-                            <p><b>Tech Stack :</b> HTML, CSS, Javascript, Bootstrap, JQuery, Laravel, PHP, Livewire, Konva.js,
+                            <p><b>Tech Stack :</b> HTML, CSS, Javascript, Bootstrap, JQuery, Laravel, PHP, Livewire,
+                                Konva.js,
                                 MySQL</p>
                         </div>
                     </div>
@@ -613,7 +600,7 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/achievement-7.png" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-primary border-2 mx-1" href="img/achivment-3.png"
+                            <a class="btn btn-lg-square btn-primary border-2 mx-1" href="img/achievement-7.png"
                                 data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
@@ -622,7 +609,16 @@
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/achievement-8.png" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-primary border-2 mx-1" href="img/achivment-3.png"
+                            <a class="btn btn-lg-square btn-primary border-2 mx-1" href="img/achievement-8.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/achievment-9.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-primary border-2 mx-1" href="img/achievment-9.png"
                                 data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
@@ -667,12 +663,12 @@
                     &copy; <a class="text-primary" href="#">Wildan Zhilal Manafi</a>, All Right Reserved.
                 </div>
                 <div class="d-flex pt-2 justify-content-center align-items-center mt-2">
-                    <a class="btn btn-circle btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-circle btn-primary me-2" href="https://www.instagram.com/wildannzm_"><i
                             class="fab fa-instagram"></i></a>
                     <a class="btn btn-circle btn-primary me-2" href="https://github.com/wildanzm"><i
                             class="fab fa-github"></i></a>
-                    <a class="btn btn-circle btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-circle btn-primary me-2" href="https://www.linkedin.com/in/wildanzm"><i
+                            class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                 </div>
