@@ -348,10 +348,6 @@
     border-color: var(--primary);
 }
 
-.portfolio-img {
-    position: relative;
-}
-
 .portfolio-btn {
     position: absolute;
     width: 100%;
@@ -367,46 +363,22 @@
     transition: .5s;
 }
 
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card-body a {
+    margin-left: 200px;
+}
+
+.portfolio-img {
+    position: relative;
+}
+
 .portfolio-item:hover .portfolio-btn {
     opacity: 1;
     padding-bottom: 30px !important;
 }
-
-
-/*** Team ***/
-.team-item img {
-    transition: .5s;
-}
-
-.team-item:hover img {
-    opacity: .7;
-}
-
-.team-item .team-text {
-    position: absolute;
-    left: 0;
-    right: 60px;
-    bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0;
-    transition: .5s;
-}
-
-.team-item:hover .team-text {
-    right: 30px;
-    opacity: 1;
-}
-
-.team-item .team-text div {
-    transition: .5s;
-}
-
-.team-item:hover .team-text div {
-    margin-left: 30px;
-}
-
 
 /*** Testimonial ***/
 .testimonial-left,
